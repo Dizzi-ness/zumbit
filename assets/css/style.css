@@ -1,0 +1,8 @@
+/* tamaño del logo */
+.navbar-brand img {
+  width: 10%;
+}
+
+.btn {
+  background-color: #e54e2b;
+}
