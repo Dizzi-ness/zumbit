@@ -1,8 +1,64 @@
-/* tamaño del logo */
 .navbar-brand img {
-  width: 10%;
+  width: 15%;
 }
 
 .btn {
   background-color: #e54e2b;
+  width: 10em;
+  border: solid;
+}
+
+.card {
+  height: 30rem;
+}
+
+.fondo {
+  background-image: url(/assets/img/_DSC4727_HDR.jpg);
+  background-size: cover;
+
+}
+
+.carousel-inner {
+  width: 100%;
+  max-height: 810px;
+  overflow: hidden;
+}
+
+.carousel-inner img {
+  vertical-align: middle;
+  width: 80%;
+  object-fit: cover;
+}
+
+@media (min-width: 751px) {
+
+  .carousel-inner {
+    width: 100%;
+    max-height: 810px;
+    overflow: hidden;
+  }
+
+  .carousel-inner img {
+    img {
+      vertical-align: middle;
+      width: 80%;
+      object-fit: cover;
+    }
+  }
+}
+
+/* Estilos para pantallas grandes (por ejemplo, escritorio) */
+@media (min-width: 992px) {
+  .navbar-brand img:first-child {
+    display: none;
+    /* Oculta el logo pequeño */
+  }
+}
+
+/* Estilos para pantallas pequeñas (por ejemplo, dispositivos móviles) */
+@media (max-width: 991px) {
+  .navbar-brand img:last-child {
+    display: none;
+    /* Oculta el logo grande */
+  }
 }
