@@ -1,190 +1,231 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Zumbit | Producción Audiovisual</title>
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!--CSS-->
-    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="Dizzinness || Zumbit" />
+    <title>Zumbit Studio || Producción audiovisual</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body class="text-light bg-dark">
-    <!-- NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand w-100" href="/index.html">
-                <img src="https://onedrive.live.com/embed?resid=B295CE9B1BBF81D0%2157197&authkey=%21ABYzL7rCJKzx69A&width=3000&height=3000"
-                    alt="Logo pequeño">
-                <img src="/img/ZoomBit_LOGO_Mesa de trabajo blanco.png" alt="Logo grande">
-            </a>
-            <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top"><img style="width: 90px;"
+                    src="/assets/img/ZoomBit_LOGO_Mesa de trabajo 1.png" alt="Logo chico"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                Menu
+                <i class="fas fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/servicios.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/portafolio.html">Portafolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/contacto.html">Contacto</a>
-                    </li>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#signup">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!--Carrusell-->
-    <div id="carouselExampleCaptions" class="carousel slide m-auto">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-                aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-                aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-                aria-label="Slide 6"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
-                aria-label="Slide 7"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://www.hoswedaje.com/wp-content/uploads/2013/05/servidores-alojamiento-hosting.jpg"
-                    class="d-fluid w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Fotografia Gastronomica</h5>
-                    <p>Sabor a traves de la imagen.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/img/comida2.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/img/comida3.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/img/bebe.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/img/auto.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/img/corpo.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="/img/retrato.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <div class="text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Zumbit</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Producción audiovisual</h2>
+                    <a class="btn btn-primary" href="#about">Comenzemos!</a>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    <!--tarjetas-->
-    <section>
-        <div class="container d-flex align-content-center">
-            <div class="row">
-                <div class="col-6">
-                    <div class="card text-bg-dark mb-3 mt-3 mx-auto h-100" style="width: 100%;">
-                        <img src="/img/comida.jpg" class="card-img-top" alt="comida">
-                        <div class="card-body">
-                            <h5 class="card-title">Fotografia Gastronomica</h5>
-                            <p class="card-text">“Fotografía que despierta apetitos. Sabor y estilo en cada
-                                imagen.” 📸🍽️✨</p>
-                            <a href="#" class="btn btn-dark">Mas información</a>
+    </header>
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4">Producciones audiovisuales a ajustados a tu presupuesto</h2>
+                    <p class="text-white-50">
+                        En Zumbit todo es posible, agenda ahora tu sesion audiovisual. Potencia tu negocio transmitiendo
+                        una imagen que te represente.
+
+                    </p>
+                </div>
+            </div>
+            <img class="img-fluid" src="assets/img/comida2.jpg" alt="..." />
+        </div>
+    </section>
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="projects">
+        <div class="container px-4 px-lg-5">
+            <!-- Featured Project Row-->
+            <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/retrato.jpg"
+                        alt="..." /></div>
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>Fotografia de Estudio</h4>
+                        <p class="text-black-50 mb-0">Sesiones de fotografia de estudio. En Zumbit realizamos sesiones
+                            de estudio para fotografia de retrato, gastronomica, producto y corporativa. Ajustandonos a
+                            los mas altos estandares de calidad para asegurar un producto final perfecto para las nuevas
+                            tecnologias.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Project One Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/corpo.jpg" alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Fotografia corporativa</h4>
+                                <p class="mb-0 text-white-50">Muestrale al mundo tu empresa, emprendimiento o tan solo
+                                    una idea en tu cabeza. en Zumbit hacemos digitales tus ideas.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-6 mx-auto ">
-                    <div class="card text-bg-dark mb-3 mt-3 mx-auto h-100" style="width: 100%;">
-                        <img src="/img/retrato.jpg" class="card-img-top" alt="retrato">
-                        <div class="card-body">
-                            <h5 class="card-title">Fotografia de Retrato</h5>
-                            <p class="card-text">“Capturando almas y sonrisas. Zumbit: donde las sonrisas se vuelven
-                                eternas.” 📸😊✨</p>
-                            <a href="#" class="btn btn-dark">Mas información</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="card text-bg-dark mb-3 mx-auto " style="width: 100%;">
-                        <img src="/img/corpo.jpg" class="card-img-top" alt="corporativo">
-                        <div class="card-body">
-                            <h5 class="card-title">Fotografia Corporativa</h5>
-                            <p class="card-text">“Identidad que trasciende. Zumbit: donde la imagen habla por sí misma.”
-                                🎨🔍✨</p>
-                            <a href="#" class="btn btn-dark">Mas información</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="card text-bg-dark mb-3 mx-auto" style="width: 100%;">
-                        <img src="/img/ZoomBit_LOGO_Mesa de trabajo blanco.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Diseño integral</h5>
-                            <p class="card-text">“Creando mundos visuales. Zumbit: donde la estética encuentra su
-                                propósito.” 🎨💡✨</p>
-                            <a href="#" class="btn btn-dark">Mas información</a>
+            </div>
+            <!-- Project Two Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/bebe.jpg" alt="..." /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Retrato familiar y de Bebes</h4>
+                                <p class="mb-0 text-white-50">Contamos con una amplia gama de profecionales ajustados a
+                                    los mas increibles ideas a tu disposicion, retrata y captura ese momento unico para
+                                    hacerlo perdurar en el tiempo.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--Carrousel logos-->
-
-
-    <!--Formulario de contacto-->
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <!-- Signup-->
+    <section class="signup-section" id="signup">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                    <h2 class="text-white mb-5">Agenda ahora tu sesion de planificacion para tu proyecto!</h2>
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- Email address input-->
+                        <div class="row input-group-newsletter">
+                            <div class="col"><input class="form-control" id="emailAddress" type="email"
+                                    placeholder="Enter email address..." aria-label="Enter email address..."
+                                    data-sb-validations="required,email" /></div>
+                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton"
+                                    type="submit">Contactame</button></div>
+                        </div>
+                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is
+                            required.</div>
+                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.
+                        </div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3 mt-2 text-white">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <br />
+                                <a
+                                    href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                            </div>
+                        </div>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage">
+                            <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="contact-section bg-black">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Direccion</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50">Temuco. Chile</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a href="#!">zumbitstudio@gmail.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Telefono</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50">+56 9 XXXX XXXX</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social d-flex justify-content-center">
+                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
