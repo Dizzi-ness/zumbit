@@ -12778,7 +12778,8 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #4D4E5259;
+  /* color de fondo barra */
 }
 
 #mainNav .navbar-toggler {
@@ -12839,15 +12840,15 @@ body {
   }
 
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: rgb(178, 60, 33, 0.5);
   }
 
   #mainNav.navbar-shrink .navbar-brand {
-    color: #000;
+    color: #fff;
   }
 
   #mainNav.navbar-shrink .nav-link {
-    color: #000;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
