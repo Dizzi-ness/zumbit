@@ -1,0 +1,96 @@
+body {
+    background-image: url('https://onedrive.live.com/embed?resid=B295CE9B1BBF81D0%2148852&authkey=%21ANDGXdFslYHkbgQ&width=1024');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.grid-container {
+    background-color: rgba(15, 22, 32, 0.3);
+    border-radius: 10px;
+    border: 3px solid #ffffff4d;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(11, 1fr);
+    padding: 10px;
+    padding-bottom: 10px;
+    max-width: 960px;
+    grid-auto-rows: minmax(180px, auto);
+    grid-gap: 20px;
+
+}
+
+.grid-container>div {
+    /* border: 3px solid #ffffff; */
+    border-radius: 10px;
+}
+
+.grid-container>div>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid-container>div {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.grid1 {
+    grid-column: 1/8;
+    grid-row: span 2;
+    max-height: 370px;
+}
+
+.grid2 {
+    grid-column: 8/12;
+    max-height: 180px;
+}
+
+.grid3 {
+    grid-column: 8/10;
+    max-height: 180px;
+
+}
+
+.grid4 {
+    grid-column: 10/12;
+    grid-row: span 2;
+    max-height: 370px;
+}
+
+.grid5 {
+    grid-column: 1/6;
+    max-height: 180px;
+}
+
+.grid6 {
+    grid-column: 6/10;
+    grid-row: span 2;
+    max-height: 370px;
+}
+
+.grid7 {
+    grid-column: 1/3;
+    max-height: 180px;
+}
+
+.grid8 {
+    grid-column: 3/6;
+    max-height: 180px;
+}
+
+.grid9 {
+    grid-column: 10/12;
+    max-height: 180px;
+}
+
+.grid9>button {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+}
