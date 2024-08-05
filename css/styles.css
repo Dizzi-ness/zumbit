@@ -37,7 +37,7 @@
   --bs-gray-900: #212529;
   --bs-primary: #e54e2b;
   --bs-secondary: #7464a1;
-  --bs-success: #67c29c;
+  --bs-success: #e54e2b;
   --bs-info: #1cabc4;
   --bs-warning: #e4c662;
   --bs-danger: #a16468;
@@ -7744,8 +7744,9 @@ fieldset:disabled .btn {
 }
 
 .text-bg-primary {
+  /* esto esta modificado del bootstrap original para que el color sea el que se necesita */
   color: #fff !important;
-  background-color: RGBA(100, 161, 157, var(--bs-bg-opacity, 1)) !important;
+  background-color: rgba(20, 29, 38, 0.5) !important;
 }
 
 .text-bg-secondary {

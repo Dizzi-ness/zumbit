@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://onedrive.live.com/embed?resid=B295CE9B1BBF81D0%2148852&authkey=%21ANDGXdFslYHkbgQ&width=1024');
+    background-image: url('https://onedrive.live.com/embed?resid=B295CE9B1BBF81D0%2148852&authkey=%21ANDGXdFslYHkbgQ&width=1024') !important;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -91,6 +91,32 @@ body {
 .grid9>button {
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    width: 100%;
+}
+
+.minigrid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-git {
+    grid-column: 1/2;
+    max-width: 60px;
+}
+
+.btn-insta {
+    grid-column: 2/2;
+    max-width: 60px;
+}
+
+.btn-whatsapp {
+    grid-column: 1/2;
+    max-width: 100%;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #000000;
 }
