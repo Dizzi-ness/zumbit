@@ -15,7 +15,7 @@ body {
     margin-top: 5%;
     grid-template-columns: repeat(11, 85px);
     padding: 15px;
-    max-width: 1152px;
+    width: 1152px;
     height: auto;
     grid-gap: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -27,13 +27,17 @@ body {
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
 
+.card-body {
+    /* Estilos para los elementos dentro del contenedor principal */
+    height: 123px;
+}
+
 .grid-container>div>img {
     /* Estilos para las imágenes dentro de los elementos */
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
-    border: 2px solid #e54d2b67;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -52,13 +56,14 @@ body {
     /* Estilos para el elemento de la cuadrícula 1 */
     grid-column: 1/8;
     grid-row: span 2;
-    max-height: 370px;
+    height: 370px;
 }
 
 .grid2 {
     /* Estilos para el elemento de la cuadrícula 2 */
     grid-column: 8/12;
-    max-height: 180px;
+    border: 2px solid #e54d2b67;
+
 }
 
 .grid3 {
@@ -72,38 +77,45 @@ body {
     /* Estilos para el elemento de la cuadrícula 4 */
     grid-column: 10/12;
     grid-row: span 2;
-    max-height: 370px;
+    height: 370px;
 }
 
 .grid5 {
     /* Estilos para el elemento de la cuadrícula 5 */
     grid-column: 1/6;
-    max-height: 180px;
+    height: 180px;
 }
 
 .grid6 {
     /* Estilos para el elemento de la cuadrícula 6 */
     grid-column: 6/10;
     grid-row: span 2;
-    max-height: 370px;
+    height: 370px;
 }
 
 .grid7 {
     /* Estilos para el elemento de la cuadrícula 7 */
     grid-column: 1/3;
-    max-height: 180px;
+    height: 180px;
 }
 
 .grid8 {
     /* Estilos para el elemento de la cuadrícula 8 */
     grid-column: 3/6;
-    max-height: 180px;
+    height: 180px;
+    border: 2px solid #e54d2b67;
 }
 
 .grid9 {
     /* Estilos para el elemento de la cuadrícula 9 */
     grid-column: 10/12;
-    max-height: 180px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
 }
 
 .grid9>button {
@@ -124,25 +136,25 @@ body {
 .btn-void {
     /* Estilos para el botón "void" */
     grid-column: 1/2;
-    max-width: 60px;
+    width: 60px;
 }
 
 .btn-git {
     /* Estilos para el botón "git" */
     grid-column: 2/2;
-    max-width: 60px;
+    width: 60px;
 }
 
 .btn-insta {
     /* Estilos para el botón "insta" */
     grid-column: 1/2;
-    max-width: 60px;
+    width: 60px;
 }
 
 .btn-whatsapp {
     /* Estilos para el botón "whatsapp" */
     grid-column: 2/2;
-    max-width: 60px;
+    width: 60px;
 }
 
 .btn:hover {
@@ -162,49 +174,49 @@ body {
     .grid1 {
         grid-column: 1/4;
         grid-row: span 2;
-        max-height: 370px;
+        height: 370px;
     }
 
     .grid2 {
         grid-column: 1/2;
-        max-height: 180px;
+        height: 180px;
     }
 
     .grid3 {
         grid-column: 2/3;
-        max-height: 180px;
+        height: 180px;
     }
 
     .grid4 {
         grid-column: 3/4;
         grid-row: span 2;
-        max-height: 370px;
+        height: 370px;
     }
 
     .grid5 {
         grid-column: 1/2;
-        max-height: 180px;
+        height: 180px;
     }
 
     .grid6 {
         grid-column: 2/4;
         grid-row: span 2;
-        max-height: 370px;
+        height: 370px;
     }
 
     .grid7 {
         grid-column: 1/2;
-        max-height: 180px;
+        height: 180px;
     }
 
     .grid8 {
         grid-column: 2/3;
-        max-height: 180px;
+        height: 180px;
     }
 
     .grid9 {
         grid-column: 3/4;
-        max-height: 180px;
+        height: 180px;
     }
 }
 
@@ -215,72 +227,126 @@ body {
 
     .grid-container {
         margin-top: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 340px;
         grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: minmax(160px, 160px);
+        grid-auto-rows: minmax(170px, 170px);
+        grid-gap: 10px;
+        align-content: justify;
+        padding: 8px;
+
     }
 
     .card-body {
         padding: 2px 5px;
+        height: 115px;
     }
 
     .grid1 {
         grid-column: 1/3;
         grid-row: span 2;
-        max-height: 320px;
-        max-width: 320px;
-        padding-bottom: auto;
+        height: 320px;
+        width: 320px;
+
     }
 
     .grid2 {
         grid-column: 1/2;
-        max-height: 160px;
-        max-width: 160px;
+        height: 150px;
+        width: 150px;
         font-size: 0.5em;
-
     }
 
     .grid3 {
         grid-column: 2/3;
-        max-height: 160px;
-        max-width: 160px;
+        height: 150px;
+        width: 150px;
     }
 
     .grid4 {
         grid-column: 1/3;
         grid-row: span 2;
-        max-height: 320px;
-        max-width: 320px;
+        height: 320px;
+        width: 320px;
     }
 
     .grid5 {
         grid-column: 1/4;
-        max-height: 160px;
-        max-width: 320px;
+        height: 150px;
+        width: 320px;
     }
 
     .grid6 {
         grid-column: 1/4;
         grid-row: span 2;
-        max-height: 320px;
-        max-width: 320px;
+        height: 320px;
+        width: 320px;
     }
 
     .grid7 {
         grid-column: 1/2;
-        max-height: 160px;
+        height: 150px;
     }
 
     .grid8 {
         grid-column: 2/4;
-        max-height: 160px;
-        max-width: 160px;
+        width: 150px;
         font-size: 0.6em;
     }
 
     .grid9 {
         grid-column: 1/3;
-        max-height: 160px;
-        max-width: 320px;
+        height: 150px;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        text-align: center;
+        text-decoration: none;
     }
 
+    .minigrid-container {
+        /* Contenedor para la cuadrícula pequeña */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .btn-void {
+        /* Estilos para el botón "void" */
+        grid-column: 1/2;
+        width: 60px;
+        height: 60px;
+    }
+
+    .btn-git {
+        /* Estilos para el botón "git" */
+        grid-column: 2/2;
+        width: 60px;
+        height: 60px;
+    }
+
+    .btn-insta {
+        /* Estilos para el botón "insta" */
+        grid-column: 1/2;
+        width: 60px;
+        height: 60px;
+    }
+
+    .btn-whatsapp {
+        /* Estilos para el botón "whatsapp" */
+        grid-column: 2/2;
+        width: 60px;
+        height: 60px;
+    }
+
+    .btn:hover {
+        /* Cambio de color de fondo y texto al pasar el cursor sobre los botones */
+        background-color: rgba(0, 0, 0, 0);
+        color: #00000000;
+    }
 }
