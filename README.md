@@ -18,11 +18,11 @@ Zumbit es una empresa joven y dinámica dedicada a crear contenido audiovisual d
 
 ¿Listo para dar vida a tus ideas? ¡Ponte en contacto con nosotros hoy mismo!
 
-Sitio web: [zumbit.cl](https://zumbit.cl)
+Sitio web: [Zumbit.cl](https://zumbit.cl)
 
-Email: info@zumbit.cl
+Email: contacto@zumbit.cl
 
-Teléfono: +XX XXX XXX XXX
+Teléfono: +56 9 6580 4724
 
 Síguenos en redes sociales: [Instagram](https://www.instagram.com/zumbitstudio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==)
 
